@@ -16,7 +16,6 @@ namespace AutoGeistModel
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int CustId { get; set; }
 
         [StringLength(50)]
